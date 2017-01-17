@@ -1,0 +1,48 @@
+* {
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+        /*  Estilos para los textos  */
+.text{
+
+}
+  .text-center {
+    text-align: center;
+  }
+  .text-white {
+    color: white;
+  }
+
+.header {
+
+}
+  .header-bg {
+    background-color: salmon;
+    height: 150px;
+    width: 100%;
+  }
+
+.article {
+
+}
+  .article-bg {
+    width: 80%;
+    padding: 10px 10px 10px 10px;
+    background-color: powderblue;
+  }
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
