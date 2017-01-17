@@ -1,0 +1,4 @@
+Esta es la edición de la nota, creada desde la consola de git con los comandos
+
+	$  > nota.txt    -> To create a new file
+	$  start nota.txt   ->  To open an file, in this case in Note Pad
