@@ -17,23 +17,23 @@
 	- Los archivos FTP no son seguras, al enviar datos al servidor
 	- Las claves SSH encripta los archivos incluso las imagenes
 
-	$ ssh-keygen  -> Luego debe ingresar la contraseña
+	$ ssh-keygen  -> Luego debe ingresar la contraseÃ±a
 
 	$ cd .ssh  -> Para ingresar a la carpeta donde se guarda la Llave ssh
 
 	$ cat <file name key>  -> Con este comando, le digo a git, que me mueste la llave, y con ella la conecto
-			   a gitHub para que sincronice los proyectos, la llave es única, e identifica al ordenador
+			   a gitHub para que sincronice los proyectos, la llave es Ãºnica, e identifica al ordenador
 
-	Copiar la llave pública (id_rsa.pub) en la cuenta de GitHub, colocar el nombre y la clave, y guardar los cambios.
+	Copiar la llave pÃºblica (id_rsa.pub) en la cuenta de GitHub, colocar el nombre y la clave, y guardar los cambios.
 
 	$ ssh-add -> En caso de que haya un error con la distro Ubunto-Debian
 
-	$ shh -T git@github.com  -> Confirmar si la llave SSH está vinculada con la cuenta de GitHub
+	$ shh -T git@github.com  -> Confirmar si la llave SSH estÃ¡ vinculada con la cuenta de GitHub
 
 4. Navegar por directorios y crear nuevas carpetas
 
 	$ cd  -> Current Directory
-	$ cd ..  -> Se sale una carpeta más
+	$ cd ..  -> Se sale una carpeta mÃ¡s
 	$ mkdir <folder-name>    -> Crea una nueva carpeta
 
 5. Traer repositorios desde GitHub
@@ -41,11 +41,3 @@
 	$ git remote add origin <project url>    -> Indica la ruta del repositorio que quiero traer
 
 	$ git pull   ->  Descargo todos los archivos del repositorio remoto a la computadora
-
-
-
-
-c/Users/Camilo/.ssh/id_rsa
-id_rsa.pub -> Llave pública
-password equals to Mega
-
