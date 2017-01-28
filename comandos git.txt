@@ -26,7 +26,7 @@
 
 	Copiar la llave pública (id_rsa.pub) en la cuenta de GitHub, colocar el nombre y la clave, y guardar los cambios.
 
-	$ ssh-add -> En caso de que haya un error con la distro Ubunto-Debian
+	$ ssh-add -> Para agregar la contraseña y que git no la pregunte cada vez que haga un pull o push
 
 	$ shh -T git@github.com  -> Confirmar si la llave SSH está vinculada con la cuenta de GitHub
 
