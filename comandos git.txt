@@ -7,10 +7,10 @@
 
 
 1. Agregar Usuario
-	$ git config --global user.name "Johan Camilo Mosquera Ninco"
+	$ git config --global user.name "Mi nombre"
 
 2. Agregar Email de Usuario (Debe ser el que tenga en la cuenta de GitHub, para sincronizar los proyectos)
-	$ git config --global user.email "joncamilomoni@gmail.com"
+	$ git config --global user.email "email"
 
 3. LLaves SSH, alternativas al protocolo FTP
 	- El FTP No lleva control de Versiones del Software
