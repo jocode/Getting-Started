@@ -17,15 +17,18 @@
 	- Los archivos FTP no son seguras, al enviar datos al servidor
 	- Las claves SSH encripta los archivos incluso las imagenes
 
-	$ ssh-keygen  -> Luego debe ingresar la contraseÒa
+	$ ssh-keygen  -> Luego debe ingresar la contrase√±a
 
 	$ cd .ssh  -> Para ingresar a la carpeta donde se guarda la Llave ssh
 
 	$ cat <file name key>  -> Con este comando, le digo a git, que me mueste la llave, y con ella la conecto
-			   a gitHub para que sincronice los proyectos, la llave es ˙nica, e identifica al ordenador
+			   a gitHub para que sincronice los proyectos, la llave es √∫nica, e identifica al ordenador
 
-	Copiar la llave p˙blica (id_rsa.pub) en la cuenta de GitHub, colocar el nombre y la clave, y guardar los cambios.
+	Copiar la llave p√∫blica (id_rsa.pub) en la cuenta de GitHub, colocar el nombre y la clave, y guardar los cambios.
+	
+	$ eval $(ssh-agent) -> Verifica el agente antes de agregar la llave ssh para la autenticaci√≥n
 
+<<<<<<< HEAD
 	$ eval $(ssh-agent -s) -> Es el agente que mantiene las claves publicas y privadas y verifica
 				  las claves para ese servicio 
 	
@@ -33,13 +36,16 @@
 	$ ssh-add ~/.ssh/id_rsa -> Para agregar la contraseÒa y que git no la pregunte cada vez que haga un pull o push
 				   * Se debe agregar el archivo de la clave publica para que identifique que 
 				     clave es la que se eval˙a.
+=======
+	$ ssh-add -> Para agregar la contrase√±a y que git no la pregunte cada vez que haga un pull o push
+>>>>>>> 776b7deff6ffdae9ed41b1cfac7336d8b3897cdc
 
-	$ shh -T git@github.com  -> Confirmar si la llave SSH est· vinculada con la cuenta de GitHub
+	$ shh -T git@github.com  -> Confirmar si la llave SSH est√° vinculada con la cuenta de GitHub
 
 4. Navegar por directorios y crear nuevas carpetas
 
 	$ cd  -> Current Directory
-	$ cd ..  -> Se sale una carpeta m·s
+	$ cd ..  -> Se sale una carpeta m√°s
 	$ mkdir <folder-name>    -> Crea una nueva carpeta
 
 5. Traer repositorios desde GitHub
@@ -52,6 +58,6 @@
 
 
 c/Users/Camilo/.ssh/id_rsa
-id_rsa.pub -> Llave p˙blica
+id_rsa.pub -> Llave p√∫blica
 password equals to Mega
 
