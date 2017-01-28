@@ -26,9 +26,6 @@
 
 	Copiar la llave pública (id_rsa.pub) en la cuenta de GitHub, colocar el nombre y la clave, y guardar los cambios.
 	
-	$ eval $(ssh-agent) -> Verifica el agente antes de agregar la llave ssh para la autenticación
-
-<<<<<<< HEAD
 	$ eval $(ssh-agent -s) -> Es el agente que mantiene las claves publicas y privadas y verifica
 				  las claves para ese servicio 
 	
@@ -36,9 +33,6 @@
 	$ ssh-add ~/.ssh/id_rsa -> Para agregar la contrase�a y que git no la pregunte cada vez que haga un pull o push
 				   * Se debe agregar el archivo de la clave publica para que identifique que 
 				     clave es la que se eval�a.
-=======
-	$ ssh-add -> Para agregar la contraseña y que git no la pregunte cada vez que haga un pull o push
->>>>>>> 776b7deff6ffdae9ed41b1cfac7336d8b3897cdc
 
 	$ shh -T git@github.com  -> Confirmar si la llave SSH está vinculada con la cuenta de GitHub
 
