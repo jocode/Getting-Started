@@ -134,3 +134,23 @@ $ git config --global alias.st status
 
 $ git config --global alias.unstage 'reset HEAD --'  
 $ git config --global alias.last 'log -1 HEAD'
+
+
+/******************** Branch  ***************************/
+
+* Listar ramas del proyecto local
+$ git branch
+
+* Crear ramas
+$ git branch name-branch
+
+* Crear ramas y cambiar a la rama creada
+$ git checkout -b name-branch
+
+* Traer ramas remotas
+$ git pull origin name-branch
+
+* Eliminar ramas remotas
+$ git push origin --delete name-branch
+
+* Crear ramas
