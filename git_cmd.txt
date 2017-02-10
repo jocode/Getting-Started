@@ -27,9 +27,30 @@ $ git init
 $ git add *.c
 $ git add README
 $ git commit –m 'versión inicial del proyecto'
+$ git commit 		# Abre una ventana en Vim para escribir el mensaje de la confirmación del cambio
 
+/*****  Eliminar Commit  *****/
+$ git reset --soft HEAD~1  #Elimina el commit más reciente, guardando el trabajo realizado
+$ git reset --hard HEAD~1  # Elimina el commit más reciente destruyendo el trabajo que has hecho
 
-* Clonar un Repositorio
+/** Cambiar el ultimo commit enviado a GitHub  **/
+Si ya he enviado ina confirmación y deseo cambiarlo, debo forzar el envio del commit cambiado con el comando. Recuerde que ya debe haber cambiado el commit localmente
+
+$ git push --force origin master
+
+* Cambiar mensaje de commit antiguos
+
+git rebase -i HEAD~3 # Displays a list of the last 3 commits on the current branch
+
+pick e499d89 Delete CNAME
+reword 0c39034 Better README
+
+Luego reemplazar pick con reword antes de cada mensaje del commit que desee cambiar y guardar los cambios.
+Finalmente forzar el envío
+
+git push --force   
+
+/**** Clonar un Repositorio  ****/
 $ git clone [url]
 $ git clone git://github.com/schacon/grit.git mygrit   # Renombra el directorio al clonar <mygrit>
 
@@ -37,7 +58,7 @@ $ git clone git://github.com/schacon/grit.git mygrit   # Renombra el directorio 
 $ git status  # Mustra los archivos añadidos o eliminados
 $ git diff   # Muestra las líneas añadidas y eliminadas, muestra los cambios que no han sido preparados.
 
-* Saltar el área de preparación
+/**** Saltar el área de preparación  ****/
 $ git commit -a -m 'added new benchmarks' # Prepara todos los archivos, sin necesidad
 											de agregar el comando git add
 
@@ -153,4 +174,3 @@ $ git pull origin name-branch
 * Eliminar ramas remotas
 $ git push origin --delete name-branch
 
-* Crear ramas
