@@ -1,4 +1,4 @@
-									COMANDOS GIT
+﻿									COMANDOS GIT
 
 * Identidad
 $ git config --global user.name "John Doe"
@@ -142,6 +142,10 @@ $ git tag -a v1.2 -m 'version 1.2' 9fceb02    # Agregar una etiqueta a un commit
 * Editar etiquetas 
 $ git tag <tag name> <tag name> -f -m "<new message>"
 # Creará una nueva etiqueta con el mismo nombre sobreescribiendo la original
+
+#   Si quires editar una etiqueta a un commit específico, Git permite hacerlo
+$ git tag --force [tag name] [commit id]
+
 En caso de que haya subido ya la etiqueta debe forzar envío
 $ git push origin --force --tags
 
