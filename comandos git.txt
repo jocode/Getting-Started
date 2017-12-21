@@ -17,14 +17,19 @@
 	- Los archivos FTP no son seguras, al enviar datos al servidor
 	- Las claves SSH encripta los archivos incluso las imagenes
 
-	$ ssh-keygen  -> Luego debe ingresar la contrase√±a
+	/*************  Claves SSH ***************/
 
-	$ cd .ssh  -> Para ingresar a la carpeta donde se guarda la Llave ssh
+	Para comprobar claves SSH existentes
+	$ ls -al ~/.ssh      -> # Lists the files in your .ssh directory, if they exist
+
+	$ ssh-keygen  -> Luego debe ingresar la contraseÒa
+
+	$ cd .ssh  -> Para ingresar a la carpeta donde se guarda la Llave SSH
 
 	$ cat <file name key>  -> Con este comando, le digo a git, que me mueste la llave, y con ella la conecto
-			   a gitHub para que sincronice los proyectos, la llave es √∫nica, e identifica al ordenador
+			   a gitHub para que sincronice los proyectos, la llave es ˙nica, e identifica al ordenador
 
-	Copiar la llave p√∫blica (id_rsa.pub) en la cuenta de GitHub, colocar el nombre y la clave, y guardar los cambios.
+	Copiar la llave p˙blica (id_rsa.pub) en la cuenta de GitHub, colocar el nombre y la clave, y guardar los cambios.
 	
 	$ eval $(ssh-agent -s) -> Es el agente que mantiene las claves publicas y privadas y verifica
 				  las claves para ese servicio 
@@ -32,7 +37,16 @@
 
 	$ ssh-add ~/.ssh/id_rsa -> Para agregar la contraseÒa y que git no la pregunte cada vez que haga un pull o push, el agente se inicia manualmente cada vez que se abre el shell o bash de git
 
-	$ shh -T git@github.com  -> Confirmar si la llave SSH est√° vinculada con la cuenta de GitHub
+	$ shh -T git@github.com  -> Confirmar si la llave SSH est· vinculada con la cuenta de GitHub
+
+	## Para vincular la llave SSH con github ##
+
+	$ clip < ~/.ssh/id_rsa.pub   -> Copies the contents of the id_rsa.pub file to your clipboard
+
+	Luego en la cuenta de github, vamos a -> settings -> SSH and GPG keys -> New SSH key
+	- Le damos un nombre a la llave para identificar el computador que se conectar·
+	- Copiamos la llave en el campo "Key"
+        Finalmente le damos en el botÛn "Add SSH key"
 
 	Para m·s informaciÛn ir a:
 	https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
@@ -74,6 +88,8 @@
 	$ cd  -> Current Directory
 	$ cd ..  -> Se sale una carpeta m√°s
 	$ mkdir <folder-name>    -> Crea una nueva carpeta
+
+        $ > file.ext     -> Crea un nuevo archivo
 
 5. Traer repositorios desde GitHub
 
