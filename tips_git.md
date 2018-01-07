@@ -128,8 +128,8 @@ cambios específicos de una rama y mezclarlos en otra.
 
 ## Generar clave ssh 
 	
-_ **ssh-keygen -t rsa -b 4096 -C "email@email.com"** -> Genera una clave SSH
-_ **clip < ~/.ssh/id_rsa.pub**  -> Copia la clave pública
+- **ssh-keygen -t rsa -b 4096 -C "email@email.com"** -> Genera una clave SSH
+- **clip < ~/.ssh/id_rsa.pub**  -> Copia la clave pública
 
 ## Repositorios Locales y remotos 
 
