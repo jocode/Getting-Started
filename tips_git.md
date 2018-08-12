@@ -170,15 +170,32 @@ https://www.gitignore.io/
 - **Issues:** Sirve para reportar un problema o sugerir algún cambio que para el repositorio.
 - **Milestones:** Forma para agrupar Issues o Pull Request.
 
-## Dominios personalizados en Github 
+## Github Pages y Dominios personalizados en Github 
 
-GitHub me permite personalizar la URL de mi GitHub Pages, primero debo comprar el dominio, nosotros usamos namecheap.com.
-En el dashboard de namecheap vamos a manage nuestro dominio, vamos a configurar los DNS.
-En GitHub vamos a settings y creamos un custom URL.
-Creamos en el proyecto el archivo CNAME y en el ponemos la URL del dominio que compramos.
+Además de servirme como hosting de páginas estáticas con [Github Pages](https://pages.github.com/), GitHub me permite personalizar la URL de mi GitHub Pages. ¿Cómo hacemos eso?
 
-- **ping tuUserName.github.io**  -> Para verificar la ip asignada (CMD)
-- **nslookup TuUserName.github.io** -> Verifica la ip
+1. Primero debo comprar el dominio, por ejemplo lo compro en namecheap.com.
 
-La ip de GitHub es 192.168.252.153 - 192.168.252.154.
+2. En el dashboard de namecheap vamos a *Manage* de nuestro dominio, vamos a *Advanced DNS*.
+
+3. Allí debemos colocar en `A Record` el valor de la ip del servidor de github. Y en `CNAME Record`, el dominio a enlazar (*midominio.com*)
+
+4. En **GitHub** vamos a *Settings* y damos clic en agregar una URL personalizada.
+5. En la raíz del proyecto, creamos el archivo `CNAME` y en él ponemos la URL del dominio que compramos, por ejemplo `midominio.com`. 
+
+Sólo eso, y ya debemos esperar a que se enlacen los servicios y, el tiempo depende del la empresa que nos lo ofrece.
+
+Desde la consola de comandos de windows, podemos verificar la ip, que tenemos asignada.
+- **ping username.github.io**  -> Para verificar la ip asignada
+- **nslookup username.github.io** -> Verifica las ip del servidor
+
+### Dominios personalizados configurados con `A Records`
+
+Si se configura un dominio personalizado utilizando un A Record, el  A Record debe apuntar a una de las siguientes direcciones IP
+
+* 185.199.108.153
+* 185.199.109.153
+* 185.199.110.153
+* 185.199.111.153
+
 

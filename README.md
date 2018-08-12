@@ -105,3 +105,4 @@ Debemos instalar el intérprete de python en windows para poder empezar a escrib
 
 
 **Para ver el contenido de python** ir al directorio [python](python)
+

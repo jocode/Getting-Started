@@ -1,6 +1,12 @@
 # Python
 
-Python a diferencia de otros lenguajes de programación no usa llaves, en lugar de ellas, usa la identación para reconocer los bloques de código. Por esta razón, y al no usar punto y coma al final de cada sentencia es uno de los lenguajes más legibles y fáciles de codificar.
+Python es un lenguaje de programación interpretado cuya filosofía hace hincapié en una sintaxis que favorezca un código legible.
+
+Se trata de un lenguaje de programación multiparadigma, ya que soporta orientación a objetos, programación imperativa y, en menor medida, programación funcional. Es un lenguaje interpretado, usa tipado dinámico y es multiplataforma. 
+
+Python a diferencia de otros lenguajes de programación no usa llaves, en lugar de ellas,usa la identación para reconocer los bloques de código. Por esta razón, y al no usar punto y coma al final de cada sentencia es uno de los lenguajes más legibles y fáciles de codificar.
+
+![Python](http://es.scoda.okfn.org/files/2017/07/python-logo-master-v3-TM-flattened.png)
 
 ## Primer hola mundo en python
 
