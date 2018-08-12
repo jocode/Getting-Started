@@ -95,3 +95,13 @@ Podemos clasificar los lenguajes en 2 tipos.
 Es un conjunto de reglas ordenadas, definidas y finitas. Que nos permite realizar una actividad.
 
 ![Algoritmos](img/algoritmo.png)
+
+
+## Instalación de Python en windows
+
+Debemos instalar el intérprete de python en windows para poder empezar a escribir nuestras primera líneas de código. También debemos descargar un editor de código. Puede ser Visual Studio Code.
+
+*Para más información ver* [Python VSCode](https://codigofacilito.com/articulos/python-vsc)
+
+
+**Para ver el contenido de python** ir al directorio [python](python)
