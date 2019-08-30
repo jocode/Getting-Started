@@ -78,3 +78,110 @@ Aprender significa apoderarse de algo, no solo es adquirir conocimiento como dij
 
 
 ## Estrategias de aprendizaje individual
+
+### ¿Nacemos o nos volvemos inteligentes?
+
+Elementos claves para poder tener un **aprendizaje individual efectivo** son:
+- Inteligencia
+- Atención
+- Memoria
+
+El aprendizaje individual es el que se genera únicamente entre el estudiante y el profesor o cualquier otra figura que nos esté enseñando algo. Los 3 elementos importantes son: inteligencia, atención y memoria.
+
+¿Tú qué dices? ¿Nacemos o nos volvemos inteligentes?
+
+Según algunos estudios la respuesta es que **nacemos inteligentes**, la inteligencia es heredada de nuestros ancestros. Pero también puedes volverte inteligente o mejorar tu inteligencia gracias al ambiente que nos rodea y qué tan interesados estamos en volvernos aún más inteligentes.
+
+> Entre el 40% y 50% de la inteligencia es heredada pero el otro 50% es determinado por la influencia de lo que nos rodea y nuestra voluntad de aprender algo nuevo todos los días.
+
+
+###  La atención y lo que no sabías sobre la técnica pomodoro
+
+La **atención** es un proceso cognitivo que nos permite enfocarnos y concentrarnos en una cosa en específico. Un proceso cognitivo será todo aquel que nos permita procesar información para transmitirla o transformarla en aprendizaje.
+
+No podemos concentrarnos en muchos estímulos al mismo tiempo porque este lleva a una **sobrecarga cognitiva**. Es por esto que el multitasking es muy mala práctica.
+
+En el tiempo de pensamiento enfocado el nivel de atención o concentración es bastante prolongado con un tiempo de hasta 10 horas. Debes estar muy atento a qué estás pensando.
+
+En el tipo de pensamiento difuso, la **técnica pomodoro** nos puede ayudarnos mucho, ya que debemos concentrarnos por lapsos de tiempo mucho más cortos y, además, nos ayuda a **evitar la procrastinación**.
+
+
+### Cómo puedo sacar el máximo provecho a mi memoria
+
+La **memoria** es la capacidad de recordar algo. Cuando memorizamos estamos utilizando dos habilidades específicas: abstracción y síntesis. No me memorizamos algo por completo, memorizamos palabras o ideas claves, por eso es importante la abstracción.
+
+La **memoria funcional** es la parte de nuestro cerebro que nos ayuda a recordar cosas de manera mecánica, es decir, de memoria. Aquí se apoya la teoría de no hacer multitasking cuando intentamos aprender algo. Si hacemos más cosas cuando estamos aprendiendo nuestro coeficiente intelectual será menos efectivo.
+
+Cuando memorizamos algo tendremos el 90% de probabilidad de olvidarlo.
+
+Una técnica que puedes seguir para reducir este porcentaje a un 10% es:
+    - Repasa un concepto 24 horas después (70%)
+    - Repasa el concepto 1 semana después (50%)
+    - Repasa el concepto 1 mes después (10%)
+
+**Correlaciones mnemotécnicas**: Hacer conexiones de lo aprendido con asuntos cotidianos.
+
+
+### Consejos para memorizar mejor
+
+- **Antes de dormir**: Recapitula lo que aprendiste durante el día. Puede ser en una libreta, smartphone o en tu cabeza. Recuerda que nunca debes parar de aprender.
+
+- **Deportes**: Para que nuestro cerebro funcione muy bien necesita altos grados de oxigenación y hace que nuestra memoria esté siempre fresca y sea más prolongada. Nos ayuda a reducir los riesgos de Alzheimer.
+
+- **Dormir**: Es importante para la memoria y la agilidad mental de nuestro cerebro. Cuando dormimos es cuando se liberan las toxinas que nos hacen daño.
+
+> Recuerda que todo lo que nos permite desarrollar conocimiento es un proceso cognitivo.
+
+- **Consejos para memorizar mejor**
+    - Recapitula lo que aprendiste durante el día
+    - Haz deporte
+    - Duerme
+
+
+### Chunking como estrategia de aprendizaje individual
+
+El **Chunking**, que significa dividir o fragmentar la información en trozos, es una habilidad muy útil cuando tenemos muchísima información y debemos procesarla para convertirla en aprendizaje.
+
+Se trata dividir la información que vamos a estudiar por partes y luego volver a conectarlas para darles sentido, ya que estamos tratando de interrelacionar todos estos conceptos. Algo así como separar la información para procesarla más fácilmente y volver a unirla cuando logramos entenderla mejor.
+
+
+### Hacer apuntes mejora mi proceso de aprendizaje
+
+Los **apuntes** pueden ser la columna vertebral del conocimiento, son una forma de organizar y estructurar la información de tal manera que tengan sentido para nosotros.
+
+El uso del lápiz en la toma de apuntes tiene mejor resultados en el proceso de aprendizaje porque el movimiento de nuestras manos implica el uso de los sentidos que producen resultados más altos en las actividades neurales.
+
+
+### Haciendo apuntes como las Notas de Cornell 
+
+> Universidad de Cornell, Nueva York EEUU
+
+Las Notas de Cornell son uno de los métodos más efectivos (y desconocidos) para guardar nuestros apuntes efectivamente, debemos seguir los siguientes lineamientos:
+
+- **Tema, Título o Materia**: ¿Qué vamos a estudiar? Esto lo vas a escribir en la parte superior de tu libreta o donde guardes tus notas.
+- **Glosario, Preguntas y Palabras clave**: Esta sección ocupará menos de la mitad del espacio de la primera mitad de tus apuntes. En ella vamos a definir los objetivos o cuestiones que debes resolver con este aprendizaje. Puedes usar el método de correlación mnemotécnico y asignar conceptos familiares para relacionarlos con los nuevos conceptos.
+- **Notas**: Esta sección ocupara un poco más de la mitad del espacio después del glosario. Puedes usar lo que mejor te convenga para plasmar la información que estás estudiando: bulletpoints, paráfrasis (evita las frases muy largas), símbolos, colores, entre otras.
+- **Resumen o Idea Principal**: Idealmente, esta sección debería ser muy breve y, aún así, capaz de resumir la nota por completo. Para entrar en más detalles podremos leer las notas y el glosario.
+
+
+- **Paráfrasis** Escribir con nuestras propias palabras
+
+
+- **¿Cómo incrementar mi velocidad de lectura?**
+    1. Reduce los movimientos sacádicos
+    2. Concentrate al máximo para evitar relee
+    3. Lee en silencio
+    4. Usa un señalador
+    5. Visualiza frases completas en lugar de palabras individuales
+
+
+## Estrategias de aprendizaje en grupo
+
+**Aprender en grupo** es una gran estrategia de aprendizaje. En principio, porque tienes un motivador personal al estar aprendiendo con otras personas que, además, pueden apoyarte compartiendo su conocimiento. Funcionan como un ancla que nos ayuda a continuar.
+
+Ventajas de estudiar en grupo:
+    - Tenemos la oportunidad de aprender de otros
+    - Exponer tus dudas
+    - Compartir tu conocimiento
+    Entre más explicas más aprendes
+
