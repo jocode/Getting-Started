@@ -179,9 +179,61 @@ Las Notas de Cornell son uno de los métodos más efectivos (y desconocidos) par
 
 **Aprender en grupo** es una gran estrategia de aprendizaje. En principio, porque tienes un motivador personal al estar aprendiendo con otras personas que, además, pueden apoyarte compartiendo su conocimiento. Funcionan como un ancla que nos ayuda a continuar.
 
-Ventajas de estudiar en grupo:
+- **Ventajas** de estudiar en grupo:
     - Tenemos la oportunidad de aprender de otros
     - Exponer tus dudas
     - Compartir tu conocimiento
-    Entre más explicas más aprendes
+    - Entre más explicas más aprendes
 
+> *"Si no puedes explicar algo de forma sencilla es que ni tú mismo lo has entendido lo suficiente** - Albert Einstein
+
+
+### Profesor por un día
+
+Cuando somos **profesores** estamos en la posición de explicar algo a otras personas sobre lo que estamos aprendiendo, estudiando e investigando.
+
+- **Parafrasear**: Nos da la posibilidad de recordar algo y repetirlo usando nuestras propias palabras.
+- **Cuestionar mi conocimiento**: En ese momento, cuando estamos explicando el tema, también tenemos una reflexión sobre qué tanto aprendimos del tema a explicar.
+- **Repasar lo aprendido**: Como profesores debemos estudiar y repasar los conceptos para tener los conocimientos al alcance y poderlos explicar.
+- **Hacer notas extras**: Las notas normales se nos quedan cortas y debemos extenderlas un poco más cuando queremos explicárselo a otras personas.
+
+_Solo puedes explicar algo cuando lo entiendes profundamente._
+
+- **Técnica de Feynman:**
+    1. Elige un tema
+    2. Escribe lo aprendido usando paráfrasis y lenguaje sencillo, luego léelo en voz alta.
+    3. Arregla lo que no está bien explicado
+    4. Repasa la información e intenta simplificarlo todavía más.
+
+**_Nuestros alumnos son los que más comparten._**
+
+
+### Evaluar mi conocimiento
+
+**Evaluar conocimiento** te da la oportunidad de corroborar lo que aprendiste, evaluar qué tanto has aprendido. Por lo general, lo mejor es que estas evaluaciones sean diseñadas y aplicadas por otra persona diferente a ti.
+
+Las **evaluaciones** deben ser diseñadas con ejemplos diversos que te confronten a la resolución de otro tipo de problemas diferentes a lo que aprendiste. Esto también te permitirá complementar tu conocimiento y darte la posibilidad de aprender a aplicarlo en más áreas.
+
+
+## Estrategias de aprendizaje colectivo
+
+### El diálogo me conduce a la reflexión de mi aprendizaje
+
+Un **argumento** es una reflexión, una respuesta construida en base a la razón, defender una postura con el mayor racionamiento posible y así sea aceptado por la otra persona. Debemos comprender el tema y conocer la mayoría de las alternativas.
+
+Con estos argumentos lo que queremos es conseguir la aceptación de la otra persona de manera racional. También desarrollamos capacidades lingüísticas, incrementamos en una **50%** la adquisición del conocimientos para el día siguiente.
+
+
+
+## Hábitos para un aprendizaje efectivo
+
+
+- Toma los cursos completos y aprueba el examen.
+- Cumples tus objetivos.
+- Quita toda distracción. Coloca tu teléfono en modo “No Molestar” o “Do Not Disturb”
+- Ten un lugar para estudiar.
+- Calendariza tu tiempo de estudio. Como si fueras a la escuela.
+- Estudia todos los días. Repasar lo aprendido o aprender algo nuevo.
+- Darse recompensas por cada avance. Una recompensa puede ser desde ver una buena película hasta unas buenas vacaciones.
+- Descansa y cuida tu vista. Usar gafas o pantallas con filtros.
+- Tener pasión por el aprendizaje. Nunca parar de aprender.
