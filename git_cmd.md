@@ -42,7 +42,7 @@ Para agregar la clave ssh a github, en caso de realizar conexiones al servidor m
 * `$ git commit –m 'versión inicial del proyecto'`
 * `$ git commit `	Abre una ventana en Vim para escribir el mensaje de la confirmación del cambio
 
-
+* `$ git remote set-url origin url-ssh-del-repositorio-en-github` Definimos el repositorio remoto origin usando la conexión por SSH (Podemos cambiar la dirección del repositorio remoto).
 
 ## :coffee: Eliminar commit
 
@@ -237,3 +237,9 @@ Enviar un repositorio exitente desde la línea de comandos
 
 * `$ git remote add origin git@github.com:user/repositorio.git`
 * `$ git push -u origin master`
+
+
+
+En el caso de crear submodulos que luego quiere agregarlos al repositorio principal podemos usar el comando 
+
+- `$ git rm --cached <path_to_submodule>` Elimina las secciones submodule en el archivo *.git/config*
