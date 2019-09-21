@@ -248,6 +248,191 @@ A brief description
 	
 
 
-## How to use English in the workplace
+### Good strategies for writing in the workplace
+
+**In this class we will focus on how to write emails, reports and communication via chat.**
+
+- **Emails**: Each time you write one notice the extension. You must find the balance between what you want to say and the importance of that information for the person who is going to read it.
+
+- **Reports**: The structure of a good report depends on the data and statistics. Check the expressions that you can use according to what you want to achieve with your report.
+
+- **Chats**: Conversations via chat are usually more informal than in other channels. There are recognized expressions that are used in English, anywhere in the world, that can help you to be much faster and more effective.
 
 
+
+## How to create content to enhance your professional profile
+
+### How to create content to enhance your professional profile
+
+Nowadays everything is about content. Content gives you the possibility of entering into people’s lives without being intrusive. Right now, all brands, organizations and people that want to be successful create content so their audience and users feel they have something to learn. In this sense, it is important to create a content marketing strategy which allows you to touch people who surround you.
+
+- **What is the most common way to create a content strategy?**
+
+For starters, it is necessary to **identify the type of audience** you are communicating with. Knowing their **profile** is going to allow you to recognize the things that might or might not work with them. Consider that it’s different to be a teacher of math, than being a dev who works in San Francisco. With this in mind, you can start creating a map which includes the **topics** that you audience might like the most.
+
+- **There are many formats to reach your audience**
+
+Creating content for the audience does not need to be so **rigid**. In fact, you can show your audience that you have many **channels** to teach them things. For instance, you can create **blog posts, videos, webminars, infographics**, instagram stories, and more. Just make sure what the channels are used by the audience you aim to reach and start creating **suitable** content.
+
+- **Do it frequently**
+
+Creating content is not a matter of one time, one week or one month, if you want that your content **strategy** works you need to maintain your audience **updated**. To do this, it is advisable to create a **calendar** that helps you determine the time in which is pertinent to publish content. This can be as simple as having an **excel document** where you write the topics you want to cover and the **dates** to publish them.
+
+These three tips are going to help you create successful content and get recognition in your work environment.
+
+### How to use English in your social networks?
+
+The use of social networks can be very useful when you are looking for a better job. In this class you will learn how to create content for specific social networks.
+
+- Be very careful with the way you write (spelling and writing).
+- Use appropriate vocabulary Don´t be redundant with adjectives and verbs.
+- Try to be as professional as possible if your profiles are public.
+- Avoid informal language and abbreviations.
+- Keep it professional
+
+
+### Writing good blog posts
+
+Writing articles for a blog is something that can strengthen your personal brand, and doing it in English can help you better position yourself in different markets.
+
+- Select a topic that you would like to write about.
+- Identify the aspects that you will cover in the article and divide them into fragments.
+- Write a draft that includes all the details you will consider.
+- Read the draft or ask someone else to read it to get feedback.
+- Make sure your content is SEO friendly.
+
+In the links section you will find an example of bad practices for you to review and propose how to improve.
+
+[The worst SEO Blog Ever](https://worstseoblogever.wordpress.com/)
+
+
+## English for programming, marketing and business 
+
+### Vocabulary for Programming
+
+- Programming Languages
+- Features
+- Develop Sites
+- Programs
+- Algorithms
+- Scope
+- Steps
+- Flowchart
+- Graphical representation
+- Syntax
+- General-purpose
+- Backend
+- Web Project
+- HTML
+- High-level
+- Weakly-type
+- Interpreted Language
+- Frameworks
+- Libraries
+- Angular
+- React
+- Multiparadigm
+- Readeble
+- Indentation
+- Code blocks
+- Parenthesis
+- Brackets
+- Coders
+- Lines of code
+- Open source
+- Productive
+- Functional programming
+- Interpretative programming
+- Object-oriented
+
+
+### Best strategies to learn English
+
+We have learned vocabulary for programmers. Now we will see strategies that you can adopt to keep improving.
+
+- Read the documentation of the tools you use
+- Pay attention to the names of the commands and the syntax of the programming languages you use.
+- Participate in forums and events.
+
+
+### Vocabulary for Marketing
+
+- Consumer
+- Brand
+- Cost
+- Distribution
+- Label
+- Launch
+- Market reserach
+- PR - Public Relations
+- Ad copy
+- Banner Ad
+- Tracking
+- CPC - Cost per Click
+- CPA - Cost per Acquisition
+- LTV - Life Time Value
+- MRR - Monthly Recurring Revenue
+- Creative stategy
+- Demographics
+- Campaign Traffic
+- Impressions
+- Strategic MarketPlanning
+- Content Strategy
+- Google Adwords
+- facebook Ads
+- Chanels
+- Audience
+- Convert
+- Display
+- Customer Persona
+- Age
+- Service
+- Social media
+- Benefits
+- Bussiness
+- Invest
+- Search
+- Blog post
+- Email arketing
+- Promotions
+- Discounts
+- Promotions
+- Discounts
+- Updates
+- Killer campaigns
+
+
+### How to create good copy for marketing campaigns
+
+- Keep it short and strong
+- Use "you"
+- Know your audience
+- Focus on one objetive only
+
+
+### Business vocabulary overview
+
+- **Organize**: To arrange something
+- **Competitor**: Another business that has a similar service
+- **Public Relation (PR)**: The strategy a company creates to appear in relevan media
+- **After-sales service**: It is the support that bussinesses provide to ther clients after the purchase
+- **Stategy**: A plan that has been designed to achieve a goal
+- **Team**: The people that work in a company or a project
+- **Headquarters** The place where the main office of a company is located
+- **Product** The thing that you offer and sell to you clients
+- **Investors** People who give to a company to grow their business
+- **Clause** A statement in a contract
+
+
+### Tips for creating a successful pitch in English
+
+- Take maximum 10 minutes
+- Explain what your product or service really is
+  - The idea is to sell your product
+- Know the audience
+  - Formal tone
+  - Informal tone
+- Explain your marketing strategy
+- **Show enthusiasm**
+
+(Practice your pitch)
