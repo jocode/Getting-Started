@@ -153,7 +153,7 @@ Este se parece a la asociación en que un elemento dependerá del otro, pero en 
 
 Este es similar al anterior solo que su relación es totalmente compenetrada de tal modo que conceptualmente una de estás clases no podría vivir si no existiera la otra.
 
-!(Composición)[https://static.platzi.com/media/user_upload/uml-relacion-composicion-2d4cb1fa-5422-44e3-849b-3a3e2d276733.jpg]
+![Composición](https://static.platzi.com/media/user_upload/uml-relacion-composicion-2d4cb1fa-5422-44e3-849b-3a3e2d276733.jpg)
 
 Estos son los conceptos básicos del Lenguaje de Modelado unificado y las representaciones que tienen sus figuras.
 
