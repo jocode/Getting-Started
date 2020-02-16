@@ -1,0 +1,9 @@
+{
+  "python.pythonPath": "C:\\Users\\FLIAMN\\AppData\\Local\\Programs\\Python\\Python38\\python.exe",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  }
+}
