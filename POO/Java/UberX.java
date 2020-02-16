@@ -12,4 +12,12 @@ class UberX extends Car {
     this.model = model;
   }
 
+  @Override
+  public void setPassenger(Integer passenger) {
+    if (passenger == 4)
+      super.setPassenger(passenger);
+    else
+      System.out.println("Debes asignar 4 pasageros");
+  }
+
 }
