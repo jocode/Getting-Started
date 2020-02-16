@@ -14,6 +14,9 @@ class Main {
     car2.passenger = 2;
     car2.printDataCar();
 
+    Paypal paypal = new Paypal(1, "correo@correo.com");
+    System.out.println(paypal.email);
+
   }
 
 }
