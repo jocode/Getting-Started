@@ -28,7 +28,7 @@ Habilitamos el mcrypt y mbstring
 
 Habilitar el mod_rewrite para trabajar con urls enriquecidas
 
-* `sudo a2endmode rewrite`
+* `sudo a2enmod rewrite`
 
 
 ## Reiniciar el servidor Apache
