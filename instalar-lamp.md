@@ -147,6 +147,7 @@ Include /etc/phpmyadmin/apache.conf
 3. Guardar el archivo y reiniciar apache 
 
 	* `sudo service apache2 restart`
+	* `sudo service mysql  start`
 
 
 Después de eso se podrá ingresar desd *htt//localhoost/phpmyadmin*
