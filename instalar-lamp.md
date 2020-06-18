@@ -28,7 +28,7 @@ Habilitamos el mcrypt y mbstring
 
 Habilitar el mod_rewrite para trabajar con urls enriquecidas
 
-* `sudo a2endmode rewrite`
+* `sudo a2enmod rewrite`
 
 
 ## Reiniciar el servidor Apache
@@ -147,6 +147,7 @@ Include /etc/phpmyadmin/apache.conf
 3. Guardar el archivo y reiniciar apache 
 
 	* `sudo service apache2 restart`
+	* `sudo service mysql  start`
 
 
 Después de eso se podrá ingresar desd *htt//localhoost/phpmyadmin*
