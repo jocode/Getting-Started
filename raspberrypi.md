@@ -1,4 +1,4 @@
-# Guía de instalación para Raspberry PI
+# :rocket: Guía de instalación para Raspberry PI :white_check_mark:
 
 ## Instalando el SO para la tarjeta microSD
 
@@ -76,7 +76,8 @@ Como Raspberry en un mini computador, podremos programar en él.
 
 Apagamos la Raspberry Pi. Luego de apagado se puede desconectar.
 
-Ver la guía [Cómo configurar Raspberry Pi Zero W en modo Headless vía WiFi](https://mecatronicauno.com/configurar-raspberry-pi-zero-w-modo-headless-via-wifi/)
+- Ver la guía [Cómo configurar Raspberry Pi Zero W en modo Headless vía WiFi](https://mecatronicauno.com/configurar-raspberry-pi-zero-w-modo-headless-via-wifi/)
+- Recomendado: [Cómo instalar Raspbian en Raspberry](www.youtube.com/watch?v=fFj3a4qtTkA)
 
 Para ello necesitamos algunos programas **nmap**, que lo usaremos para escanear que dispositivos están conectados a la red para saber la IP del dispositivo.
 
@@ -86,11 +87,13 @@ En linux podemos instalarlo usando
 
 Para escanear las IPs usamos
 
-- `nmap -sn 192.168.1.0/24` Escanea los primeros 24 dispositivos
+- `nmap -sn 192.168.0.0/24` Escanea los primeros 24 dispositivos
 
 Para escanear las IPs de la red local usamos
 
-- `nmap -sn 192.168.1.0/24 -oG-`
+- `nmap -sn 192.168.0.0/24 -oG-`
+
+O descargar el programa [Advanced IP Scanner](https://www.advanced-ip-scanner.com/es/) Es un software grafico que escanea una red en cuestión de segundos
 
 ### Putty
 
@@ -100,7 +103,7 @@ GPIO Hammer Header (Solderless) - Para la conexión en Raspberry Pi Zero W
 
 [VNC-Connect-and-Raspberry Pi](https://help.realvnc.com/hc/en-us/articles/360002249917-VNC-Connect-and-Raspberry-Pi#operating-vnc-server-at-the-command-line-0-6)
 
-## Conectando Raspberry Pi por SSH
+## :zap: Configurando Raspberry Pi para conexión por SSH
 
 > Por defecto la conexión **ssh** no está habilitada en la raspberry Pi. Para ello debemos habilitar la opción usando.
 
@@ -111,27 +114,73 @@ GPIO Hammer Header (Solderless) - Para la conexión en Raspberry Pi Zero W
 
 3. Desconectamos la tarjeta y la insertamos en la Raspberry Pi.
 
-**_Es importante ver la guía ''Cómo configurar Raspberry Pi Zero W en modo Headless vía WiFi, esto nos permitirá conectar la tarjeta a la red WiFi para poder identificarla sin tener que usar monitor, teclado y mouse._**
+**_Es importante ver la guía 'Cómo configurar Raspberry Pi Zero W en modo Headless vía WiFi, esto nos permitirá conectar la tarjeta a la red WiFi para poder identificarla sin tener que usar monitor, teclado y mouse._**
 
-Para conectar por SSH podemos usar Putty, que es un programa que debemos descargar, o han trabajado con Git, se puede hacer mediante GitBash
+Sin para conectarla por wifi, sólo debemos crear el siguiente archivo en la misma carpeta donde se ha colocado el archivo `ssh`. Este archivo lleva el nombre de **`wpa_supplicant.conf`**
 
-Eb putty, escribimos la ip a la cual está conectada la tarjeta y las contraseña por defecto es **raspberry**
+```
+country=CO
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+network={
+ssid="NombreDeMiRedWiFi"
+psk="ContraseñaDeMiRedWiFi"
+key_mgmt=WPA-PSK
+}
+```
 
-En **SSH** usando GitBash colocamos los siguientes comandos, recordar que por defecto raspberry tiene el usuario **pi**:
+Donde debemos cambiar el país (**Country**) y el nombre y contraseña de la red a la cual estamos conectados. (Esto es si no se tiene un cable ethernet, o si si se quiere conectar vía WIFI para evitar cables)
+
+Con esto, al conectar la Raspberry se conectará a la red ya podrá ver el dispositivo conectado.
+
+Si lo deseas, puedes incluir más de una red _wpa_supplicant_ seleccionará la red que califica como la mejor opción basada en:
+
+- Orden de redes en el archivo wpa_supplicant.conf
+- Nivel de seguridad (se prefiere WPA2)
+- Intensidad de señal
+  Al hacerlo se verá algo como esto:
+
+```
+# Red 1
+network={
+ssid="SSID1"
+psk="password1"
+key_mgmt=WPA-PSK
+}
+
+# Red 2
+network={
+ssid="SSID2"
+psk="password2"
+key_mgmt=WPA-PSK
+}
+```
+
+### :lock: Conexión SSH
+
+Para conectar por SSH podemos usar la terminal de Windows CMD, o usar Putty, (Es un programa que debemos descargar) o mediante GitBash si tienen git instalado.
+
+En putty, escribimos la ip a la cual está conectada la tarjeta y las contraseña por defecto es **raspberry**
+
+Usando la terminal, bien sea CMD, o la del sistema operativo que tengamos, digitamos **SSH** y colocamos los siguientes comandos. Recordar que por defecto raspberry tiene el usuario **pi**:
 
 - **`ssh pi@192.168.0.x`**
 - Ingresamos la contraseña, por defecto es **_raspberry_**
 
-Para cambiar las configuraciones en la raspberry, de puede acceder a:
+* **`sudo apt-get install screenfetch`** Instala in programa que nos permite ver las características del dispositivo
+
+Para **cambiar las configuraciones en la raspberry**, de puede acceder a:
 
 - **`sudo raspi-config`**
 
 Esto nos abrirá las opciones para configurar raspberry pi
 
-Para hablitar la opción de VNV (Para ver la interfaz desde otro computador), debemos seleccionar la opción
+:star: Para hablitar la opción de VNC (Para ver la interfaz desde otro computador), debemos seleccionar la opción
 
 - Interface Option
   - VNC (Habilitar o deshabilitar la opción gráfica remota)
+
+Aquí se puedes cambiar otras opciones como la contraseña o el usuario de la tarjeta conectada a la red.
 
 ### Instalando VNC en Raspberry Pi
 
@@ -161,3 +210,168 @@ Para apagar la raspberry Pi (Recordar que estamos trabajando con una versión de
 - **`sudo power off`** Apaga inmediatamente
 
 - **`sudo poweroff`** Pregunta la contraseña del super usuario como confirmación para apagar el sistema.
+
+## :eyes: Instalando OpenCV en Raspberry Pi
+
+**REF** [Cómo instalar OpenCV en Raspberry Pi](https://omes-va.com/como-instalar-opencv-en-raspberry-pi/)
+
+Previo a la instalación de OpenCV en python 3, necesitamos instalar algunos paquetes, esto lo haremos a través de la siguiente línea:
+
+- `sudo apt-get install libhdf5-dev libhdf5-serial-dev libatlas-base-dev libjasper-dev libqtgui4 libqt4-test`
+
+### Instalando OpenCV 4 en Raspberry Pi
+
+Vamos a instalar la versión de OpenCV 4.1.0.25. Usamos pip3 install `opencv-contrib-python`, tal y como lo hicimos en la instalación de OpenCV en Windows, empleamos contrib para que se instalen los módulos principales y extras.
+
+- `pip3 install opencv-contrib-python==4.1.0.25`
+
+## Comprobar que OpenCV 4 se ha instalado correctamente en la Raspberry Pi
+
+Para comprobar que se ha instalado OpenCV, digitamos python3 en el terminal e importamos OpenCV para finalmente imprimir la versión instalada.
+
+Digitamos python3 y escribimos los siguiente. Esto nos debería arrojar
+
+```py
+import cv2
+cv2.__version__
+# 4.1.0
+```
+
+- **Probando con una imagen**
+
+```py
+import cv2
+
+image = cv2.imread('nombreimagen.jpg')
+cv2.imshow('Imagen', image)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+```
+
+- **Reproducir un vídeo**
+
+```py
+import cv2
+
+cap = cv2.VideoCapture('nombrevideo.avi')
+
+while (cap.isOpened()):
+  ret, frame = cap.read()
+
+  cv2.imshow('Video', frame)
+
+  if cv2.waitKey(25) & 0xFF == 27: # Si se presiona ESC cerramos el ciclo
+    break
+
+cap.release()
+cv2.destroyAllWindows()
+```
+
+## Extras para mejor funcionamiento en Raspberry Pi Zero W
+
+**REF** [Installing OpenCV in PiZeroW](https://towardsdatascience.com/installing-opencv-in-pizero-w-8e46bd42a3d3)
+
+1. Expander el sistema de archivos
+
+Expandemos el sistema de archivos para no tener problemas de espacio de almacenamiento
+
+- **`sudo raspi-config --expand-rootfs`**
+
+2. Aumentar espacio de intercambio
+
+El espacio de intercambio es una parte de una unidad de disco duro (HDD) que se utiliza para la memoria virtual. Tener un archivo de intercambio permite que el sistema operativo de su computadora simule que tiene más RAM de la que realmente tiene. Esto aumentará el proceso de compilación de openCV. De lo contrario, terminará con un error de memoria agotada.
+Para aumentar el tamaño de Swapsize, abra el archivo de intercambio de su pi zero con el siguiente comando:
+
+- **`sudo nano /etc/dphys-swapfile`**
+
+Vaya a Cambiar tamaño y cámbielo a 2048 desde 100. como se muestra a continuación.
+
+```
+.
+# where we want the swapfile to be, this is the default
+#CONF_SWAPFILE=/var/swap
+# set size to absolute value, leaving empty (default) then uses computed value
+#   you most likely don't want this, unless you have an special disk situation
+#CONF_SWAPSIZE=100
+CONF_SWAPSIZE=2048
+.
+```
+
+**_Reiniciamos el sistema_**
+
+- **`sudo reboot`**
+
+## Installing dependencies
+
+Primero vamos a actualizar y actualizar los paquetes existentes:
+
+- **`sudo apt-get update`**
+- **`sudo apt-get upgrade`**
+
+Si está utilizando **Raspbian Buster**, ejecute el siguiente comando:
+
+- **`sudo apt update`**
+- **`sudo apt upgrade`**
+
+Instalar las herramientas de desarrollo
+
+- **`sudo apt-get install build-essential cmake pkg-config`**`
+
+Instale los paquetes IO:
+
+- **`sudo apt-get install libjpeg-dev libtiff5-dev libjasper-dev libpng12-dev`**
+
+Junto con algunos paquetes de E / S de video (aunque es poco probable que realice un gran procesamiento de video con Raspberry Pi Zero):
+
+- **`sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev`**
+- **`sudo apt-get install libxvidcore-dev libx264-dev`**
+
+Necesitaremos instalar la biblioteca de desarrollo GTK para la interfaz GUI de OpenCV:
+
+- **`sudo apt-get install libgtk2.0-dev`**
+
+Y paquetes de optimización de rutina apalancados por OpenCV:
+
+- **`sudo apt-get install libatlas-base-dev gfortran`**
+
+El único requisito para construir enlaces de Python + OpenCV es tener instalado NumPy, así que instale NumPy usando pip:
+
+- **`pip3 install numpy`**
+
+Finalmente todos los comandos son:
+
+```
+1. sudo apt-get update & sudo apt-get upgrade & sudo rpi-update
+2. sudo nano /etc/dphys-swapfile
+    CONF_SWAPSIZE=2048
+3. sudo apt-get install build-essential cmake pkg-config
+4. sudo apt-get install libjpeg-dev libtiff5-dev libjasper-dev libpng12-dev
+5. sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
+6. sudo apt-get install libxvidcore-dev libx264-dev
+7. sudo apt-get install libgtk2.0-dev libgtk-3-dev
+8. sudo apt-get install libatlas-base-dev gfortran
+```
+
+:star: **REF** [Install OpenCV 4 on Raspberry Pi 4](https://www.pyimagesearch.com/2019/09/16/install-opencv-4-on-raspberry-pi-4-and-raspbian-buster/)
+
+Si tiene un módulo de cámara Raspberry Pi conectado a su RPi, también debe instalar la API PiCamera ahora:
+
+- **`pip3 install "picamera[array]"`**
+
+- **`pip3 install opencv-contrib-python==4.1.0.25`**
+
+**NOTA** No haga este paso si ha realizado el anterior
+
+Avancemos y descarguemos el código fuente de OpenCV para los repositorios opencv y opencv_contrib, seguido de desarchivarlos:
+
+```
+- $ cd ~
+- $ wget -O opencv.zip https://github.com/opencv/opencv/archive/4.1.1.zip
+- $ wget -O opencv_contrib.zip https://github.com/opencv/opencv_contrib/archive/4.1.1.zip
+- $ unzip opencv.zip
+- $ unzip opencv_contrib.zip
+- $ mv opencv-4.1.1 opencv
+- $ mv opencv_contrib-4.1.1 opencv_contrib
+```
+
+Y... eso es todo amigos :octocat:
