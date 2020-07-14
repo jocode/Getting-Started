@@ -211,13 +211,15 @@ Para apagar la raspberry Pi (Recordar que estamos trabajando con una versión de
 
 - **`sudo poweroff`** Pregunta la contraseña del super usuario como confirmación para apagar el sistema.
 
-## :eyes: Instalando OpenCV en Raspberry Pi
+## :eyes: :star: Instalando OpenCV en Raspberry Pi
 
 **REF** [Cómo instalar OpenCV en Raspberry Pi](https://omes-va.com/como-instalar-opencv-en-raspberry-pi/)
 
 Previo a la instalación de OpenCV en python 3, necesitamos instalar algunos paquetes, esto lo haremos a través de la siguiente línea:
 
 - `sudo apt-get install libhdf5-dev libhdf5-serial-dev libatlas-base-dev libjasper-dev libqtgui4 libqt4-test`
+
+> Es importante ejecutar la línea anterior para un correcto funcionamiento
 
 ### Instalando OpenCV 4 en Raspberry Pi
 
@@ -315,7 +317,7 @@ Si está utilizando **Raspbian Buster**, ejecute el siguiente comando:
 
 Instalar las herramientas de desarrollo
 
-- **`sudo apt-get install build-essential cmake pkg-config`**`
+- **`sudo apt-get install build-essential cmake pkg-config`**
 
 Instale los paquetes IO:
 
@@ -350,6 +352,16 @@ Finalmente todos los comandos son:
 6. sudo apt-get install libxvidcore-dev libx264-dev
 7. sudo apt-get install libgtk2.0-dev libgtk-3-dev
 8. sudo apt-get install libatlas-base-dev gfortran
+- sudo apt install libqtgui4  (Por si lanza error en ImportError: libQtGui.so.4)
+```
+
+**Prerrequisitos** :star: [`pip install opencv`](https://www.pyimagesearch.com/2018/09/19/pip-install-opencv/#download-the-code)
+
+```
+$ sudo apt-get install libhdf5-dev libhdf5-serial-dev libhdf5-100
+$ sudo apt-get install libqtgui4 libqtwebkit4 libqt4-test python3-pyqt5
+$ sudo apt-get install libatlas-base-dev
+$ sudo apt-get install libjasper-dev
 ```
 
 :star: **REF** [Install OpenCV 4 on Raspberry Pi 4](https://www.pyimagesearch.com/2019/09/16/install-opencv-4-on-raspberry-pi-4-and-raspbian-buster/)
