@@ -106,3 +106,88 @@ Debemos instalar el intérprete de python en windows para poder empezar a escrib
 
 **Para ver el contenido de python** ir al directorio [python](python)
 
+
+## Configurando VS code para desarrollo
+
+### **plugins** 
+
+- **Prettier - Code formatter** Nos sirve para formatear el código y que sea más legible.
+- **Color Highlight** Nos colorea los hexadecimales que definamos en los estilos.
+- **Bracket Pair Colorizer** Nos colorea los llaves, ubicándolos por bloques.
+- **Live Server** Ejecuta un servidor local con recargas en vivo para recargar páginas estáticas o dinámicas.
+- **Path Intellisense** Completa automáticamente los nombres de archivo que tengamos en los directorios
+- **Auto Rename Tag** Cambia automáticamente el nombre de la etiqueta HTML/XML emparejada, igual que visualmente lo hace el IDE de Visual Studio.
+- **Material Icon Theme** Íconos de material design para los proyectos que abramos en VSCode
+
+### Instalando WSL on Windows 10
+
+- [:notebook: Windows Subsystem for Linux Installation Guide for Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+
+Para la instalación de WSL segumos los pasos anteriores. Es importante tener instalado Windows 10.
+
+Luego, que se tenga habilitada WSL. Descargamos los siguiente desde la windows store.
+- Ubuntu 20.04 LTS
+- Windows terminal
+
+Usando el comando pwd, nos indica en qué directorio estamos trabajando.
+
+- **`pwd`**
+- **`cd`** chage directory
+- **`ls`** list directory
+- **`cd /`** Vamos a la raíz del SO
+- **`cd mnt`** Encontramos los discos del PC
+- **`cd ~`** Con este comando nos dirije al home del usuario instalado
+
+
+**Creando una carpeta para ls proyectos**
+
+- **`mkdir dev`** Con este comando creamos un directorio
+- **`touch index.html`** Con este comando creamos un archivo
+- **`mv index.html dev`** Mueve un archivo dentro de un directorio (Aplica también para carpetas)
+- **`cat file`** Muestra el contenido de los archivos.
+- **`man cat`** Muestra la documentación de cada comando
+
+## Actualizar los paquetes
+
+Se actualiza los repositorios del sistema operaitivo
+- **`sudo apt-get update`**
+- **`sudo apt-get upgrade`**
+
+- **`sudo apt install nodejs`** Instala nodejs
+- **`node -v`** Para ver la versión de nodejs instalada.
+
+- **`sudo apt install npm`** Instala node package manager
+
+### Configurando el proyecto con ReactJS
+
+*__npx__* Instala los paquetes de nodeJS, lo que hace es descargar el programa y ejecutarla borrando los instaladores.
+
+- **`npx create-react-app react_first`**
+
+Para darle permisos a un directorio en Linux, podemos usar el comando.
+
+- **`sudo chown -R user path/to/folder`**
+
+### Borrar directorio en linux
+
+- **`rm directory`** Borra un directorio vacío
+- **`rm -rf directory`** Borra un directorio con los archivos que tenga dentro (Borrado recursivo)
+
+- **`sudo apt install git`** Con esto se instala `git` en linux
+
+### Vincular clave SSH e github
+
+- **`ssh-keygen -t rsa -b 4096 -C email`**
+
+Usamos el ssh-agent
+
+- **`eval "$(ssh-agent -s)"`**  Evalúa si hay un agente ejecutando
+
+Para modificar los datos de usuario en git, usamos
+
+- **`git config --global user.email [email]`**
+- **`git config --global user.name [name]`**
+
+Para verificar que tenemos acceso a github, podemos usar el comando
+
+- **`ssh -T git@github.com`**

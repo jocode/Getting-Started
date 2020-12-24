@@ -225,3 +225,52 @@ Hay que estar seguros que se tenga **sql-mode** y no guiones bajos y sin comilla
 
 *Para más información ver* [Configuración global de sql_mode en mysql](https://stackoverflow.com/questions/2317650/setting-global-sql-mode-in-mysql#26104070)
 
+
+## :start: Issues en  instalación de LAMP on WSL
+
+Para instalar LAMP en WSL, se usa el comando 
+
+- **`sudo apt-get install lamp-server^`**
+
+Esto nos instalará todos los servicios necesarios.
+
+Si por alguna razón, al intentar abrir mysql o apache desde la terminal, da error. Se puede usar la siguiente configuración.
+
+- **`sudo mysql`** Si no funciona este comando, usar
+- **`sudo service mysql start`**
+- **`sudo /etc/init.d/mysql start`**
+
+- **`service apache2 start`** Si no funciona este comando usar el siguiente
+- **`sudo service apache2 start`**
+- **`sudo /etc/init.d/apache2 start`**
+
+_**Refs**_
+
+- [Ubuntu 20.04 set mysql phpmyadmin root password](https://stackoverflow.com/questions/61430362/ubuntu-20-04-set-mysql-phpmyadmin-root-password)
+- [Cómo instalar la pila Linux, Apache, MySQL y PHP (LAMP) en Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-20-04-es)
+
+
+## Cambiar privilegios en MySQL
+
+- **`ALTER USER 'root'@'localhost' IDENTIFIED BY 'MyNewPass';`**
+
+Cambiar requetimientos para la contraseña
+
+- **`SHOW VARIABLES LIKE 'validate_password%';`**
+- **`SET GLOBAL validate_password.length = 6;`**
+- **`SET GLOBAL validate_password.policy=LOW;`**
+
+
+## Comandos en VIM
+
+Presione la tecla `Esc` para ingresar al **"Modo normal"**. Luego puede escribir `:` para ingresar al **"Modo de línea de comandos"**. Aparecerán dos puntos (`:`) en la parte inferior de la pantalla y puede escribir uno de los siguientes comandos. Para ejecutar un comando, presione la tecla `Enter`.
+
+- `:q` Para salir (Abreviatura para `:quit`)
+- `:q!` salir sin guardar (abreviatura de `:quit!`)
+- `:wq` para escribir y salir
+- `:wq!` para escribir y salir incluso si el archivo solo tiene permiso de lectura (si el archivo no tiene permiso de escritura: forzar escritura)
+- `:x` para escribir y salir (similar a `:wq`, pero solo escriba si hay cambios)
+- `:qa` para salir de todo (abreviatura de `:quitall`)
+-  `:cq` para salir sin guardar y hacer que Vim devuelva un error distinto de cero (es decir, salir con error)
+
+Vim tiene una amplia ayuda, a la que puede acceder con el comando **`:help`**, donde puede encontrar respuestas a todas sus preguntas y un tutorial para principiantes.
