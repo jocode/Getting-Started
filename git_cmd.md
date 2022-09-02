@@ -1,4 +1,4 @@
-# Comandos en Git (La guía completa)
+# ⌨️ Comandos en Git (La guía completa) ⭐
 
 ## :coffee: Agregar la identidad
 Es necesario configurar la primera vez git, y eso lo hacemos usando los siguientes comandos. Para descargar git en windows, lo podemos hacer en la siguiente dirección https://git-scm.com/download/win.
@@ -43,6 +43,7 @@ Para agregar la clave ssh a github, en caso de realizar conexiones al servidor m
 * `$ git commit `	Abre una ventana en Vim para escribir el mensaje de la confirmación del cambio
 
 * `$ git remote set-url origin url-ssh-del-repositorio-en-github` Definimos el repositorio remoto origin usando la conexión por SSH (Podemos cambiar la dirección del repositorio remoto).
+* `$ git remote add origin url-ssh-repo` Se usa para agregar un repositorio remoto.
 
 ## :coffee: Eliminar commit
 
